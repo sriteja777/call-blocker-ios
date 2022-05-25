@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBA28C0A283DFE9100A60CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C09283DFE9100A60CC3 /* AppDelegate.m */; };
+		CBA28C0D283DFE9100A60CC3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C0C283DFE9100A60CC3 /* SceneDelegate.m */; };
+		CBA28C10283DFE9100A60CC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C0F283DFE9100A60CC3 /* ViewController.m */; };
+		CBA28C13283DFE9100A60CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA28C11283DFE9100A60CC3 /* Main.storyboard */; };
+		CBA28C15283DFE9300A60CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA28C14283DFE9300A60CC3 /* Assets.xcassets */; };
+		CBA28C18283DFE9300A60CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA28C16283DFE9300A60CC3 /* LaunchScreen.storyboard */; };
+		CBA28C1B283DFE9300A60CC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C1A283DFE9300A60CC3 /* main.m */; };
+		CBA28C25283DFE9300A60CC3 /* Call_BlockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C24283DFE9300A60CC3 /* Call_BlockerTests.m */; };
+		CBA28C2F283DFE9300A60CC3 /* Call_BlockerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C2E283DFE9300A60CC3 /* Call_BlockerUITests.m */; };
+		CBA28C31283DFE9300A60CC3 /* Call_BlockerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C30283DFE9300A60CC3 /* Call_BlockerUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA28C21283DFE9300A60CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA28BFD283DFE9100A60CC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA28C04283DFE9100A60CC3;
+			remoteInfo = "Call Blocker";
+		};
+		CBA28C2B283DFE9300A60CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA28BFD283DFE9100A60CC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA28C04283DFE9100A60CC3;
+			remoteInfo = "Call Blocker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBA28C05283DFE9100A60CC3 /* Call Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Call Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA28C08283DFE9100A60CC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBA28C09283DFE9100A60CC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBA28C0B283DFE9100A60CC3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CBA28C0C283DFE9100A60CC3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CBA28C0E283DFE9100A60CC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBA28C0F283DFE9100A60CC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBA28C12283DFE9100A60CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA28C14283DFE9300A60CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA28C17283DFE9300A60CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBA28C19283DFE9300A60CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA28C1A283DFE9300A60CC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBA28C20283DFE9300A60CC3 /* Call BlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Call BlockerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA28C24283DFE9300A60CC3 /* Call_BlockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Call_BlockerTests.m; sourceTree = "<group>"; };
+		CBA28C2A283DFE9300A60CC3 /* Call BlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Call BlockerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA28C2E283DFE9300A60CC3 /* Call_BlockerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Call_BlockerUITests.m; sourceTree = "<group>"; };
+		CBA28C30283DFE9300A60CC3 /* Call_BlockerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Call_BlockerUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA28C02283DFE9100A60CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA28C1D283DFE9300A60CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA28C27283DFE9300A60CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBA28BFC283DFE9100A60CC3 = {
+			isa = PBXGroup;
+			children = (
+				CBA28C07283DFE9100A60CC3 /* Call Blocker */,
+				CBA28C23283DFE9300A60CC3 /* Call BlockerTests */,
+				CBA28C2D283DFE9300A60CC3 /* Call BlockerUITests */,
+				CBA28C06283DFE9100A60CC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA28C06283DFE9100A60CC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA28C05283DFE9100A60CC3 /* Call Blocker.app */,
+				CBA28C20283DFE9300A60CC3 /* Call BlockerTests.xctest */,
+				CBA28C2A283DFE9300A60CC3 /* Call BlockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA28C07283DFE9100A60CC3 /* Call Blocker */ = {
+			isa = PBXGroup;
+			children = (
+				CBA28C08283DFE9100A60CC3 /* AppDelegate.h */,
+				CBA28C09283DFE9100A60CC3 /* AppDelegate.m */,
+				CBA28C0B283DFE9100A60CC3 /* SceneDelegate.h */,
+				CBA28C0C283DFE9100A60CC3 /* SceneDelegate.m */,
+				CBA28C0E283DFE9100A60CC3 /* ViewController.h */,
+				CBA28C0F283DFE9100A60CC3 /* ViewController.m */,
+				CBA28C11283DFE9100A60CC3 /* Main.storyboard */,
+				CBA28C14283DFE9300A60CC3 /* Assets.xcassets */,
+				CBA28C16283DFE9300A60CC3 /* LaunchScreen.storyboard */,
+				CBA28C19283DFE9300A60CC3 /* Info.plist */,
+				CBA28C1A283DFE9300A60CC3 /* main.m */,
+			);
+			path = "Call Blocker";
+			sourceTree = "<group>";
+		};
+		CBA28C23283DFE9300A60CC3 /* Call BlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA28C24283DFE9300A60CC3 /* Call_BlockerTests.m */,
+			);
+			path = "Call BlockerTests";
+			sourceTree = "<group>";
+		};
+		CBA28C2D283DFE9300A60CC3 /* Call BlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA28C2E283DFE9300A60CC3 /* Call_BlockerUITests.m */,
+				CBA28C30283DFE9300A60CC3 /* Call_BlockerUITestsLaunchTests.m */,
+			);
+			path = "Call BlockerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA28C04283DFE9100A60CC3 /* Call Blocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA28C34283DFE9300A60CC3 /* Build configuration list for PBXNativeTarget "Call Blocker" */;
+			buildPhases = (
+				CBA28C01283DFE9100A60CC3 /* Sources */,
+				CBA28C02283DFE9100A60CC3 /* Frameworks */,
+				CBA28C03283DFE9100A60CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Call Blocker";
+			productName = "Call Blocker";
+			productReference = CBA28C05283DFE9100A60CC3 /* Call Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA28C1F283DFE9300A60CC3 /* Call BlockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA28C37283DFE9300A60CC3 /* Build configuration list for PBXNativeTarget "Call BlockerTests" */;
+			buildPhases = (
+				CBA28C1C283DFE9300A60CC3 /* Sources */,
+				CBA28C1D283DFE9300A60CC3 /* Frameworks */,
+				CBA28C1E283DFE9300A60CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA28C22283DFE9300A60CC3 /* PBXTargetDependency */,
+			);
+			name = "Call BlockerTests";
+			productName = "Call BlockerTests";
+			productReference = CBA28C20283DFE9300A60CC3 /* Call BlockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBA28C29283DFE9300A60CC3 /* Call BlockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA28C3A283DFE9300A60CC3 /* Build configuration list for PBXNativeTarget "Call BlockerUITests" */;
+			buildPhases = (
+				CBA28C26283DFE9300A60CC3 /* Sources */,
+				CBA28C27283DFE9300A60CC3 /* Frameworks */,
+				CBA28C28283DFE9300A60CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA28C2C283DFE9300A60CC3 /* PBXTargetDependency */,
+			);
+			name = "Call BlockerUITests";
+			productName = "Call BlockerUITests";
+			productReference = CBA28C2A283DFE9300A60CC3 /* Call BlockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA28BFD283DFE9100A60CC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CBA28C04283DFE9100A60CC3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CBA28C1F283DFE9300A60CC3 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CBA28C04283DFE9100A60CC3;
+					};
+					CBA28C29283DFE9300A60CC3 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CBA28C04283DFE9100A60CC3;
+					};
+				};
+			};
+			buildConfigurationList = CBA28C00283DFE9100A60CC3 /* Build configuration list for PBXProject "Call Blocker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA28BFC283DFE9100A60CC3;
+			productRefGroup = CBA28C06283DFE9100A60CC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA28C04283DFE9100A60CC3 /* Call Blocker */,
+				CBA28C1F283DFE9300A60CC3 /* Call BlockerTests */,
+				CBA28C29283DFE9300A60CC3 /* Call BlockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA28C03283DFE9100A60CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA28C18283DFE9300A60CC3 /* LaunchScreen.storyboard in Resources */,
+				CBA28C15283DFE9300A60CC3 /* Assets.xcassets in Resources */,
+				CBA28C13283DFE9100A60CC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA28C1E283DFE9300A60CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA28C28283DFE9300A60CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA28C01283DFE9100A60CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA28C10283DFE9100A60CC3 /* ViewController.m in Sources */,
+				CBA28C0A283DFE9100A60CC3 /* AppDelegate.m in Sources */,
+				CBA28C1B283DFE9300A60CC3 /* main.m in Sources */,
+				CBA28C0D283DFE9100A60CC3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA28C1C283DFE9300A60CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA28C25283DFE9300A60CC3 /* Call_BlockerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA28C26283DFE9300A60CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA28C31283DFE9300A60CC3 /* Call_BlockerUITestsLaunchTests.m in Sources */,
+				CBA28C2F283DFE9300A60CC3 /* Call_BlockerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA28C22283DFE9300A60CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA28C04283DFE9100A60CC3 /* Call Blocker */;
+			targetProxy = CBA28C21283DFE9300A60CC3 /* PBXContainerItemProxy */;
+		};
+		CBA28C2C283DFE9300A60CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA28C04283DFE9100A60CC3 /* Call Blocker */;
+			targetProxy = CBA28C2B283DFE9300A60CC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA28C11283DFE9100A60CC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA28C12283DFE9100A60CC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA28C16283DFE9300A60CC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA28C17283DFE9300A60CC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA28C32283DFE9300A60CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBA28C33283DFE9300A60CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA28C35283DFE9300A60CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Call Blocker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browserstack.Call-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBA28C36283DFE9300A60CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Call Blocker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browserstack.Call-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBA28C38283DFE9300A60CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browserstack.Call-BlockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Call Blocker.app/Call Blocker";
+			};
+			name = Debug;
+		};
+		CBA28C39283DFE9300A60CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browserstack.Call-BlockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Call Blocker.app/Call Blocker";
+			};
+			name = Release;
+		};
+		CBA28C3B283DFE9300A60CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browserstack.Call-BlockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Call Blocker";
+			};
+			name = Debug;
+		};
+		CBA28C3C283DFE9300A60CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browserstack.Call-BlockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Call Blocker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA28C00283DFE9100A60CC3 /* Build configuration list for PBXProject "Call Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA28C32283DFE9300A60CC3 /* Debug */,
+				CBA28C33283DFE9300A60CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA28C34283DFE9300A60CC3 /* Build configuration list for PBXNativeTarget "Call Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA28C35283DFE9300A60CC3 /* Debug */,
+				CBA28C36283DFE9300A60CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA28C37283DFE9300A60CC3 /* Build configuration list for PBXNativeTarget "Call BlockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA28C38283DFE9300A60CC3 /* Debug */,
+				CBA28C39283DFE9300A60CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA28C3A283DFE9300A60CC3 /* Build configuration list for PBXNativeTarget "Call BlockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA28C3B283DFE9300A60CC3 /* Debug */,
+				CBA28C3C283DFE9300A60CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA28BFD283DFE9100A60CC3 /* Project object */;
+}
