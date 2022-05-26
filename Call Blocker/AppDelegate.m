@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CallHandler.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"in app dele");
+        [CallHandler start];
+
     return YES;
 }
 
@@ -26,6 +30,8 @@
 - (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
     // Called when a new scene session is being created.
     // Use this method to select a configuration to create the new scene with.
+    NSLog(@"in app dele");
+
     return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
 }
 

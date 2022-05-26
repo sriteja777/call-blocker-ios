@@ -17,6 +17,8 @@
 		CBA28C25283DFE9300A60CC3 /* Call_BlockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C24283DFE9300A60CC3 /* Call_BlockerTests.m */; };
 		CBA28C2F283DFE9300A60CC3 /* Call_BlockerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C2E283DFE9300A60CC3 /* Call_BlockerUITests.m */; };
 		CBA28C31283DFE9300A60CC3 /* Call_BlockerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C30283DFE9300A60CC3 /* Call_BlockerUITestsLaunchTests.m */; };
+		CBA28C3F283F380D00A60CC3 /* CallHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA28C3E283F380D00A60CC3 /* CallHandler.m */; };
+		CBA28C42283F3E9D00A60CC3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA28C41283F3E9D00A60CC3 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		CBA28C2A283DFE9300A60CC3 /* Call BlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Call BlockerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA28C2E283DFE9300A60CC3 /* Call_BlockerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Call_BlockerUITests.m; sourceTree = "<group>"; };
 		CBA28C30283DFE9300A60CC3 /* Call_BlockerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Call_BlockerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CBA28C3D283F37AA00A60CC3 /* CallHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallHandler.h; sourceTree = "<group>"; };
+		CBA28C3E283F380D00A60CC3 /* CallHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallHandler.m; sourceTree = "<group>"; };
+		CBA28C41283F3E9D00A60CC3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA28C42283F3E9D00A60CC3 /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +94,7 @@
 				CBA28C23283DFE9300A60CC3 /* Call BlockerTests */,
 				CBA28C2D283DFE9300A60CC3 /* Call BlockerUITests */,
 				CBA28C06283DFE9100A60CC3 /* Products */,
+				CBA28C40283F3E9D00A60CC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +122,8 @@
 				CBA28C16283DFE9300A60CC3 /* LaunchScreen.storyboard */,
 				CBA28C19283DFE9300A60CC3 /* Info.plist */,
 				CBA28C1A283DFE9300A60CC3 /* main.m */,
+				CBA28C3D283F37AA00A60CC3 /* CallHandler.h */,
+				CBA28C3E283F380D00A60CC3 /* CallHandler.m */,
 			);
 			path = "Call Blocker";
 			sourceTree = "<group>";
@@ -134,6 +143,14 @@
 				CBA28C30283DFE9300A60CC3 /* Call_BlockerUITestsLaunchTests.m */,
 			);
 			path = "Call BlockerUITests";
+			sourceTree = "<group>";
+		};
+		CBA28C40283F3E9D00A60CC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA28C41283F3E9D00A60CC3 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA28C3F283F380D00A60CC3 /* CallHandler.m in Sources */,
 				CBA28C10283DFE9100A60CC3 /* ViewController.m in Sources */,
 				CBA28C0A283DFE9100A60CC3 /* AppDelegate.m in Sources */,
 				CBA28C1B283DFE9300A60CC3 /* main.m in Sources */,
@@ -452,6 +470,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.browserstack.Call-Blocker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -479,6 +498,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,7 +507,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.browserstack.Call-Blocker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
